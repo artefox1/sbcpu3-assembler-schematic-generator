@@ -4,6 +4,9 @@ The assembler compiles programs written for the [SB CPU 3 ISA](https://docs.goog
 
 Thanks to [Sloimay](https://github.com/Sloimayyy/mcschematic) for the WorldEdit schematic generator.
 
+# SB CPU 3
+https://www.youtube.com/watch?v=Cg64eC3MZLU
+
 ## Instructions
 Write your assembly code in `asm.s`, or create a new file and make sure to reference it in `assembly.py` under `asmcode = open('YOURFILE.s', 'r')`
 
