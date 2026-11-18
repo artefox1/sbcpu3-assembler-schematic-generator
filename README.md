@@ -1,11 +1,11 @@
-# Custom Python Assembler and Minecraft Barrel ROM Schematic Generator for 1.21.8
+# SB CPU 3
+https://www.youtube.com/watch?v=Cg64eC3MZLU
+
+# Custom Python Assembler and ROM Schematic Generator for 1.21.8
 
 The assembler compiles programs written for the [SB CPU 3 ISA](https://docs.google.com/spreadsheets/d/145FgBEBUMqR2AwzehXJ7kyqvEKSq50dz7CUwtCOcKwo/edit?usp=sharing) into a .mc file, and the schematic generator turns the machine code into a Minecraft barrel ROM compatible for SB CPU 3.
 
 Thanks to [Sloimay](https://github.com/Sloimayyy/mcschematic) for the WorldEdit schematic generator.
-
-# SB CPU 3
-https://www.youtube.com/watch?v=Cg64eC3MZLU
 
 ## Instructions
 Write your assembly code in `asm.s`, or create a new file and make sure to reference it in `assembly.py` under `asmcode = open('YOURFILE.s', 'r')`
